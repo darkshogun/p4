@@ -1,0 +1,8 @@
+<!--A module to display a student's recommendation. -->
+<template name="DisplayRecommendation">
+<hr>
+<p>
+   Recommended Courses for [insert next semester]:
+   [retrieve most recent recommendation and insert here]
+</p>
+</template>
