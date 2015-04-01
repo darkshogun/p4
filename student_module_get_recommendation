@@ -1,0 +1,14 @@
+<!-- A GetRecommendation Module for the student. -->
+<template name="GetRecommendation">
+<p>Select the number of classes you would like to take in the upcoming semester.</p>
+<form>
+<div align="left">
+   <input type="radio" name="numOfCourses" value="One"> One
+   <input type="radio" name="numOfCourses" value="Two" checked> Two
+   <input type="radio" name="numOfCourses" value="Three"> Three
+
+   <input type="button" name ="submitNumOfCourses" value="Get Recommendation" ><br>
+</div>
+  
+</form>
+</template>
