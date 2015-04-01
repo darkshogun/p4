@@ -1,0 +1,65 @@
+<!--This is the module for a student to set or change his/her prefered schedule-->
+<template name="SetSchedule">
+  <h1>Change Preferences<br>
+</h1>
+
+<p>Alter your course and scheduling preferences<br>
+</p>
+<form>
+   <p>Select each course you would like to take, in the order you prefer.<br>
+Please select each course only once.<br>
+After You have completed a semester, past courses will become unavailable.</p>
+   <p>Choose course 1:
+   <select name='Course1'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 2:
+   <select name='Course2'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 3:
+   <select name='Course3'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 4:
+   <select name='Course4'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 5:
+   <select name='Course5'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 6:
+   <select name='Course6'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 7:
+   <select name='Course7'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 8:
+   <select name='Course8'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 9:
+   <select name='Course9'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 10:
+   <select name='Course10'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 11:
+   <select name='Course11'>
+   {{>CourseDropdown}}
+   </select></p>
+   <p>Choose course 12:
+   <select name='Course12'>
+   {{>CourseDropdown}}
+   </select></p>
+
+   <input type="button" name ="submitPrefs" value="Submit" ><br>
+</form>
+<br>
+<p>{{> MainFooter}}</p>
+</template>
